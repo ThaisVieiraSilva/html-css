@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Âncoras e Links</title>
+</head>
+<body>
+<h1>Hiperlink</h1>
+<h2>Como criar um hiperlink</h2>
+    
+    <p>Para criar um hiperlink, devemos criar âncoras com a tag &lta&gt.</p>
+    <a href="https://gustavoguanabara.github.io/">Acesse meu perfil Github</a>
+    
+    <p>Pode indicar um site e especificar a lingua do mesmo:</p>
+    <a href="https://en.wikipedia.org/wiki/YouTube" hreflang="en">Aqui outra opção de site que está em inglês.</a>
+    
+    <p>Podemos configurar para que o link abra de diferentes formar:</p>
+    <a href="https://gustavoguanabara.github.io/" target="_self">Aqui o link vai abrir nessa tela, fechando o conteúdo atual (padrão).</a>
+    <br>
+    <a href="https://gustavoguanabara.github.io/" target="_blank">Aqui o link vai abrir em outra aba, mantendo essa aberta.</a>
+
+<h2>O link é seu ou de outros?</h2>
+<h3>Link externo</h3>  
+    <p>Posso colocar um link de outro site, no caso externo, isso me encaminhará para o outro site abrindo outra aba sem fechar a atual.</p>
+    <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">Abrir o site em outra tela.</a>
+
+<h3>Link interno</h3>
+    <p>Posso colocar um link de outra página dentro próprio site, no caso interno, isso manterá a pessoa navegando dentro do site, assim abrirá na mesma tela.</p>
+    <p>Essa é a primeira página do meu site. Se quiser saber mais pode acessar a segunda página <a href="pag002.html" target="_self" rel="next">aqui</a>.</p>
+<h1>Links para download</h1>
+<ul>
+    <li><a href="livro/meulivro.pdf" target="_blank">Abra o livro em PDF aqui</a></li>
+    <li><a href="livro/meulivro.rar" download="meulivro.rar" type="application/zip">Baixe o livro aqui</a></li>
+</ul>
+    </body>
+</html>

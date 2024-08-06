@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Aqui temos uma foto flexível para se adaptar à diversos dispositivos.</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagem/foto-300b.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagem/foto-700b.png" type="image/png">
+    <img src="imagem/foto-1000.png" alt="imagem aleatória">
+</picture>
+<p>Ou podemos alterar o zoom:</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagem/foto-300.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagem/foto-700.png" type="image/png">
+    <img src="imagem/foto-1000.png" alt="imagem aleatória">
+</picture>
+</body>
+</html>
