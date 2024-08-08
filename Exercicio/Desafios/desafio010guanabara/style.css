@@ -4,11 +4,17 @@
 
 @font-face {
     font-family: "fonte-idroid";
-    src: url(fontes/IDroid.otf) format(opentype);
+    src: url(fontes/idroid.otf) format(opentype);
 }
-header > h1 {
-    font-family: "Bebas Neue";            
+
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #063D1E;
 }
-article > h2 {
-    font-family: "fonte-idroid";
+
+body {
+    background-color: var(--cor1);
 }

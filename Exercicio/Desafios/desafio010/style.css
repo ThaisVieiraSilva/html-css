@@ -11,6 +11,17 @@ a.externo::after {
     font-family: "bebas neue";
     src: url(fontes/BebasNeue-Regular.ttf) format(truetype);
 }
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #063D1E;
+    }
+body {
+    background-color: var(--cor1);
+    margin: 0px;
+}
 header {
     background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E);
     color: white;
@@ -20,7 +31,7 @@ header {
 header > h1 {
     font-size: 3em;
     text-align: center;
-    text-shadow: 1px 1px 2px #063D1E;
+    text-shadow: 1px 1px 2px var(--cor4);
     padding: 10px;
     margin: 0px 10px;
     font-family: "Bebas neue";
@@ -30,7 +41,7 @@ header > p {
     font-family: Arial, verdana, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.2em;
-    text-shadow: 1px 1px 2px #063D1E;
+    text-shadow: 1px 1px 2px var(--cor4);
     max-width: 500px;
     margin: auto;
     margin-bottom: 20px;
@@ -51,7 +62,7 @@ nav > a {
 }
 nav > a:hover {
     text-decoration: underline;
-    background-color: #2fa86585;
+    background-color: var(--cor3);
 }
 main {
     min-width: 300px;
@@ -59,7 +70,6 @@ main {
     margin: auto;
     margin-bottom: 20px;    
     font-family: Arial, verdana, Helvetica, sans-serif;
-    background-color: #83E1AD;    
 }
 main p {
     text-indent: 30px;
